@@ -9,13 +9,7 @@ When adding or editing a project, the user is prompted for the project title, da
 The entered data is stored in a database and displayed on the homepage.
 
 
-### Technologies Used
-HTML
-CSS
-Flask
-SQLite
-
-### How to Use
+### How to Run
 Clone the repository to your local machine.
 Install the necessary dependencies with pip install -r requirements.txt.
 Run the application with python app.py.
@@ -30,7 +24,3 @@ In the process of creating this portfolio web application, I learned several new
 - CRUD operations: I learned how to implement basic CRUD (create, read, update, delete) operations in a web application.
 
 Overall, this project helped me to build upon my existing skills and gain new knowledge in web development and database management. I'm excited to continue learning and building on this foundation in future projects.
-
-
-### Acknowledgment
-The HTML and CSS for this site were provided for the project. 
