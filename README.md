@@ -25,11 +25,10 @@ From the homepage, you can view all projects, click on a project to view its det
 ### What I Learned
 In the process of creating this portfolio web application, I learned several new skills and technologies, including:
 
-HTML/CSS: I improved my skills in building responsive web pages and learned new techniques for styling elements using CSS.
-Flask: I learned how to use the Flask framework to build a web application and handle routes and requests.
-SQL and SQLAlchemy: I gained experience in working with databases and using SQLAlchemy to interact with a SQLite database.
-CRUD operations: I learned how to implement basic CRUD (create, read, update, delete) operations in a web application.
-Git and version control: I learned how to use Git to track changes to my code and collaborate with others using version control.
+- HTML/CSS: I improved my skills in building responsive web pages and learned new techniques for styling elements using CSS.
+- Flask: I learned how to use the Flask framework to build a web application and handle routes and requests. And some overarching principles that make up the internet.
+- CRUD operations: I learned how to implement basic CRUD (create, read, update, delete) operations in a web application.
+
 Overall, this project helped me to build upon my existing skills and gain new knowledge in web development and database management. I'm excited to continue learning and building on this foundation in future projects.
 
 
