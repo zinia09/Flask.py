@@ -19,5 +19,5 @@ Flask
 SQLite
 
 
-##### Acknowledgment
+### Acknowledgment
 The HTML and CSS for this site were provided for the project. 
