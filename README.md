@@ -1,4 +1,4 @@
-# Portfolio Web Application
+# Portfolio Web App
 
 ### Functionality
 This is an interface for a portfolio web application that allows users to add, edit, and display project information. 
