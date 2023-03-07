@@ -1,4 +1,5 @@
-# Portfolio Web App
+# Portfolio Web App with Flask and SQLAlchemy
+## Techdegree project 5
 
 ### Functionality
 This is an interface for a portfolio web application that allows users to add, edit, and display project information. 
