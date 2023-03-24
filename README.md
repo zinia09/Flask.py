@@ -7,9 +7,9 @@ The application lets the user add or edit project information. When adding or ed
 
 
 ### How to Run
-Clone the repository with 'git clone <link>' 
-Install the requirements with 'pip install -r requirements.txt' 
-Run the app.py file  with 'python app.py' 
+Clone the repository with 'git clone <link>'. 
+Install the requirements with 'pip install -r requirements.txt'. 
+Run the app.py file  with 'python app.py'. 
 Copy the server address from the console and paste it on a browser to view the website
 
 
