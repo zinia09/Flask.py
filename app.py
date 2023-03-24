@@ -2,8 +2,6 @@ from flask import render_template, url_for, request, redirect
 from models import db, app, Project
 from datetime import datetime
 
-
-
 @app.route('/')
 def index():
     projects = Project.query.all()
