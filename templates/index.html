@@ -1,0 +1,65 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <section class="header">
+        <h1>Python Developer</h1>
+        <p>to code or not to code, that is the question - but forsooth, coding is my true passion and my heart doth sing when I doth program :)</p>
+        <img src="static/me.jpg" alt="Headshot of myself">
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hi there! My name is Zinia, and I'm a senior at GSU majoring in Public Health.
+            I've always been passionate about healthcare and helping others, which is what drew me to this field.
+            However, I also have a love for coding and all things tech-related.
+            In my free time, you can often find me tinkering with code, watching tech documentaries,
+            and exploring new programming languages.
+            I believe that technology has the power to transform the healthcare industry and improve people's lives,
+            which is why I'm excited to combine my interests and pursue a career at the intersection of public health and technology.
+        </p>
+        <div id="triangle1"></div>
+        <div id="triangle2"></div>
+    </section>
+    <section id="skills">
+        <i class="fas fa-laptop-code"></i>
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Flask</li>
+            <li>SQLAlchemy</li>
+            <li>GitHub</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <div id="triangle3"></div>
+        <i class="fas fa-file-code"></i>
+        <h2>Projects</h2>
+        <div id="project-list">
+            {% for project in projects %}
+                <div id="project.id" class="a-project">
+                    <h3>{{project.title}}</h3>
+                    <a href="{{ project.github }}" class="github-btn">
+                        <i class="fab fa-github"></i>
+                        View on GitHub
+                    </a>
+                    <p>{{project.description}}</p>
+                    <p>{{project.skills}}</p>
+                </div>
+            {% endfor %}
+        </div>
+        <div id="triangle4"></div>
+    </section>
+    <section id="contact">
+        <i class="fas fa-paper-plane"></i>
+        <h2>Contact Me</h2>
+        <p>
+            Thank you for visiting my website.
+            If you have any questions or feedback, please feel free to reach out.
+            I'd love to hear from you!
+        </p>
+        <p>
+            <i class="fas fa-envelope"></i>
+            ZiniaKhondoker09@gmail.com
+        </p>
+    </section>
+{% endblock %}
